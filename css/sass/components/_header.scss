@@ -1,0 +1,58 @@
+header {
+    height: 85vh;
+    background: url('../../../img/backgrounds/hexa.png');
+    background-size: cover;
+    background-position: 50% 65px;
+    // overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 65px;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(158.28deg, #FFFFFF 19.44%, rgba(255, 255, 255, 0.27) 84.68%);
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        // z-index: 1;
+        background: url('../../../img/backgrounds/plume.png');
+        background-position: center top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .header {
+        position: relative;
+        z-index: 2;
+
+        .title {
+            margin-top: 25vh;
+
+
+            h1 {
+                font-family: 'Abril Fatface';
+                font-size: 42px;
+                margin-bottom: 20px;
+            }
+            p {
+                span {
+                    font-family: 'Abril Fatface';
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                    display: block;
+                }
+            }
+        }
+
+    }
+}

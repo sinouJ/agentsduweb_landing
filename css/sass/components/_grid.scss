@@ -1,0 +1,103 @@
+@import "../helpers/variables";
+
+$nb_col: 12;
+$padding: .75rem;
+
+.col {
+    @for $i from 1 through $nb_col {
+        &.s#{$i} {
+            width: (100% / $nb_col) * $i;
+            float: left;
+            padding-left: $padding;
+            padding-right: $padding;
+            box-sizing: border-box;
+        }
+    }
+
+    @for $i from 1 through $nb_col {
+        &.offset-s#{$i} {
+            margin-left: (100% / $nb_col) * $i !important;
+        }
+    }
+
+    @media (min-width: $small) {
+        @for $i from 1 through $nb_col {
+            &.m#{$i} {
+                width: (100% / $nb_col) * $i;
+                float: left;
+                padding-left: $padding;
+                padding-right: $padding;
+                box-sizing: border-box;
+            }
+        }
+
+        @for $i from 1 through $nb_col {
+            &.offset-m#{$i} {
+                margin-left: (100% / $nb_col) * $i !important;
+            }
+        }
+    }
+
+
+    @media (min-width: $medium) {
+        @for $i from 1 through $nb_col {
+            &.l#{$i} {
+                width: (100% / $nb_col) * $i;
+                float: left;
+                padding-left: $padding;
+                padding-right: $padding;
+                box-sizing: border-box;
+            }
+        }
+
+        @for $i from 1 through $nb_col {
+            &.offset-l#{$i} {
+                margin-left: (100% / $nb_col) * $i !important;
+            }
+        }
+    }
+
+    @media (min-width: $large) {
+        @for $i from 1 through $nb_col {
+            &.xl#{$i} {
+                width: (100% / $nb_col) * $i;
+                float: left;
+                padding-left: $padding;
+                padding-right: $padding;
+                box-sizing: border-box;
+            }
+        }
+
+        @for $i from 1 through $nb_col {
+            &.offset-xl#{$i} {
+                margin-left: (100% / $nb_col) * $i !important;
+            }
+        }
+    }
+}
+
+.container {
+    width: 95%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    width: 75%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+
+    &::after {
+        content: "";
+        clear: both;
+    }
+}
