@@ -18,16 +18,16 @@
             <div class="col s6">
                 <ul class="row nm">
                     <li class="col s3">
-                        <a class="active" href="#">À propos</a>
+                        <a id="concept" class="active" href="">Concept</a>
                     </li>
                     <li class="col s3">
-                        <a href="#">Nos valeurs</a>
+                        <a id="partenaires" href="">Partenaires</a>
                     </li>
                     <li class="col s3">
-                        <a href="#">Partenaires</a>
+                        <a id="communaute" href="">Communauté</a>
                     </li>
                     <li class="col s3">
-                        <a href="#">Recrutement</a>
+                        <a id="evenements" href="">Événements</a>
                     </li>
                 </ul>
             </div>
@@ -49,29 +49,29 @@
     </header>
     <main>
         <section class="valeurs row">
-            <article class="col s4 card">
+            <article id="collab" class="col s4 card">
                 <div class="circle"></div>
                 <h3>
                     Collaborate & think
                 </h3>
             </article>
-            <article class="col s4 card">
+            <article id="accompagnement" class="col s4 card">
                 <div class="circle"></div>
                 <h3>
-                    Accompagnement<br>et suivi
+                    L’accompagnement
                 </h3>
             </article>
-            <article class="col s4 card">
+            <article id="green" class="col s4 card">
                 <div class="circle"></div>
                 <h3>
                     Green Community
                 </h3>
             </article>
         </section>
-        <div>
-            <section class="valeurSection container2">
+        <div class="textContainer">
+            <section id="collabSection" class="valeurSection active container2">
                 <h2>
-                    Collaborativité <br> et épanouissement
+                    Collaborate & Create
                 </h2>
                 <div class="row">
                     <article class="col s6 np">
@@ -95,6 +95,34 @@
                             l’humain.
                             <br><br>
                             Nous nous impliquons de manière constante à améliorer notre façon de travailler dans ce sens.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section id="accompagnementSection" class="valeurSection container2">
+                <h2>
+                    L’accompagnement
+                </h2>
+                <div class="row">
+                    <article class="col s6 np">
+                        <p>
+                            Dans une logique d’épanouissement, nous tenons à ce que les agents puissent réaliser leurs missions dans des conditions
+                            optimales. Pour cela, une multitude de formation leurs sont proposées afin que chacun ait la possibilité d’augmenter en
+                            compétence de manière constante.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section id="greenSection" class="valeurSection container2">
+                <h2>
+                    Green Community
+                </h2>
+                <div class="row">
+                    <article class="col s6 np">
+                        <p>
+                            A l’instar de l’agence 148 labélisée B Corp, nous croyons à une économie durable au service de l’humain. Parce que nous
+                            pensons que les questions liées au développement durable est l’affaire de tous, nous nous impliquons à améliorer notre
+                            façon de travailler dans le but de réduire au mieux notre impact écologique.
                         </p>
                     </article>
                 </div>
@@ -137,6 +165,7 @@
         </div>
         <section class="row competences">
             <div class="container2">
+                <h2>Champs d’action & profils recherchés</h2>
                 <article class="col s4 card">
                     <div class="circle"></div>
                     <h3>
@@ -225,7 +254,7 @@
         </section>
         <div class="container3 process_candidature">
             <div class="row">
-                <h2>Envie de faire partie de la communauté des Agents du Web ?</h2>
+                <h2>Envie de faire partie <br> de la communauté ?</h2>
             </div>
             <div class="row">
                 <section class="col s6">
@@ -340,9 +369,113 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="button_recrutement col s2 offset-s5 np">
+                <p>Recrutement</p>
+            </div>
+        </div>
+        <div class="row avis nm">
+            <div class="container2">
+                <h2>Ils en parlent...</h2>
+                <div class="swiper-avis-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="row nm">
+                                <div class="col s4">
+                                    <div class="circle">
+                                        <img src="img/pic/avis1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col s8">
+                                    <div class="row">
+                                        <p><span>Margaux Verten</span> - UI Designer freelance</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="comment">
+                                            “ Je travaille avec les Agents du Web depuis Septembre 2019 et le résultat est hyper positif. Des events dédiés rien que
+                                            pour la communauté, et bien sûr une communauté bienveillante! Franchement, pas déçu de toutes ces rencontres depuis
+                                            quelques mois. ”
+                                        </p>
+                                    </div>
+                                    <div class="row">
+                                        <i><img src="img/icons/star.png" alt=""></i>
+                                        <p class="note"><span>4,8</span> / 5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row nm">
+                                <div class="col s4">
+                                    <div class="circle">
+                                        <img src="img/pic/avis2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col s8">
+                                    <div class="row">
+                                        <p><span>Benoît Tellier</span> - Développeur Front</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="comment">
+                                            “ Je suis agent depuis plus de 18 mois. Une communauté active et bienveillante qui gagne en intérêt mois après mois. Des
+                                            missions qui s’adaptent à notre niveu et des outils très pratiques à notre disposition. Essayez !”
+                                        </p>
+                                    </div>
+                                    <div class="row">
+                                        <i><img src="img/icons/star.png" alt=""></i>
+                                        <p class="note"><span>5</span> / 5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row nm">
+                                <div class="col s4">
+                                    <div class="circle">
+                                        <img src="img/pic/avis3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col s8">
+                                    <div class="row">
+                                        <p><span>Safia Chainet</span> - Spécialiste SEO</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="comment">
+                                            “ Je suis très satisfaite de cette plateforme. Je recherchais des missions en freelance et j’ai trouvé la proposition
+                                            des ADW très adaptée. Je recommande vivement. ”
+                                        </p>
+                                    </div>
+                                    <div class="row">
+                                        <i><img src="img/icons/star.png" alt=""></i>
+                                        <p class="note"><span>4,7</span> / 5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        
+        <div class="row nm">
+            <div class="col s11">
+                <ul>
+                    <li><p>Concept</p></li>
+                    <li><p>Partenaires</p></li>
+                    <li><p>Communauté</p></li>
+                    <li><p>Recrutement</p></li>
+                    <li><p>CGV</p></li>
+                    <li><p>Mentions Légales</p></li>
+                    <li><div class="divider"></div></li>
+                    <li class="icon"><img src="img/icons/insta.png" alt=""></li>
+                    <li class="icon"><img src="img/icons/link.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="img/logo/logo.png" alt="">
+            </div>
+        </div>
     </footer>
     <script src="js/package/js/swiper.min.js"></script>
     <script>
@@ -356,9 +489,10 @@
         });
 
         var swiperAgents = new Swiper('.swiper-agents', {
-            slidesPerView: 3.2,
+            slidesPerView: 3.5,
             loop: true,
             spaceBetween: 30,
+            centeredSlides: true,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false
@@ -366,14 +500,158 @@
         });
 
         var swiperEvent = new Swiper('.swiper-events', {
-                slidesPerView: 1.5,
-                loop: true,
-                spaceBetween: 30,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false
+            slidesPerView: 1.8,
+            loop: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false
+            }
+        });
+
+        var swiperAvis = new Swiper('.swiper-avis-container', {
+            loop: true,
+            autoplay: {
+                delay: 6000
+            }
+        })
+
+        function scrollNav() {
+            window.addEventListener('scroll', function() {
+                var nbScroll = window.scrollY;
+                
+                if (hasClass('nav', 'active')[0] == false) {
+                    if (nbScroll > 30) {
+                        addClass('nav', 'active');
+                    }
+                }
+                if (hasClass('nav', 'active')[0] == true) {
+                    if (nbScroll < 30) {
+                        removeClass('nav', 'active');
+                    }
                 }
             });
+        }
+
+        function animNav (){
+            var concept = document.querySelector('.competences').offsetTop;
+            var partenaires = document.querySelector('.competences').offsetTop;
+            var communaute = document.querySelector('.process_candidature').offsetTop;
+            var evenements = document.querySelector('.events').offsetTop;
+
+            window.addEventListener('scroll', function() {
+                x = window.scrollY;
+
+                if (x == 0 || x <= partenaires - 100) {
+                    removeClass(['#concept', "#partenaires", '#communaute', '#evenements'], 'active');
+                    addClass('#concept', 'active');
+                }
+                if (x >= partenaires - 100 && x <= communaute - 100) {
+                    removeClass(['#concept', "#partenaires", '#communaute', '#evenements'], 'active');
+                    addClass('#partenaires', 'active');
+                }
+                if (x >= communaute - 100 && x <= evenements - 100) {
+                    removeClass(['#concept', "#partenaires", '#communaute', '#evenements'], 'active');
+                    addClass('#communaute', 'active');
+                }
+                if (x >= evenements - 100) {
+                    removeClass(['#concept', "#partenaires", '#communaute', '#evenements'], 'active');
+                    addClass('#evenements', 'active');
+                }
+            });
+        }
+
+        function scrollToElement() {
+            var concept = document.querySelector('header')
+            var partenaires = document.querySelector('.competences')
+            var communaute = document.querySelector('.process_candidature')
+            var evenements = document.querySelector('.events')
+
+            var idConcept = document.querySelector('#concept');
+            var idPartenaires = document.querySelector('#partenaires');
+            var idCommunaute = document.querySelector('#communaute');
+            var idEvenements = document.querySelector('#evenements');
+
+            idConcept.addEventListener('click', function(event) {
+                event.preventDefault();
+                concept.scrollIntoView({behavior: 'smooth'});
+            });
+            idPartenaires.addEventListener('click', function (event) {
+                event.preventDefault();
+                partenaires.scrollIntoView({ behavior: 'smooth' });
+            });
+            idCommunaute.addEventListener('click', function (event) {
+                event.preventDefault();
+                communaute.scrollIntoView({ behavior: 'smooth' });
+            });
+            idEvenements.addEventListener('click', function (event) {
+                event.preventDefault();
+                evenements.scrollIntoView({ behavior: 'smooth' });
+            });
+        }
+
+        function toggleText() {
+            var collab = document.querySelector('#collab')
+            var accompagnement = document.querySelector('#accompagnement')
+            var green = document.querySelector('#green')
+
+            var collabSection = document.querySelector('#collabSection')
+            var accompagnementSection = document.querySelector('#accompagnementSection')
+            var greenSection = document.querySelector('#greenSection')
+
+            green.addEventListener('click', function() {
+                console.log('ok');
+            })
+
+            collab.addEventListener('click', function() {
+                console.log('ok')
+                removeClass([accompagnementSection, greenSection], 'active');
+                addClass(collabSection, 'active');
+            });
+
+            accompagnement.addEventListener('click', function () {
+                removeClass([collabSection, greenSection], 'active');
+                addClass(accompagnementSection, 'active');
+            });
+        }
+
+        function removeClass(el, className) {
+            var els = document.querySelectorAll(el);
+            for (var i = 0; i < els.length; i++) {
+                els[i].className = els[i].className.replace(new RegExp('\\b' + className + '\\b', 'g'), '');
+            }
+        }
+        function addClass(el, className) {
+            var els = document.querySelectorAll(el);
+            for (var i = 0; i < els.length; i++) {
+                els[i] = els[i].className += ' ' + className;
+            }
+        }
+        function hasClass(el, className) {
+            var arrayTest = [];
+            var els = document.querySelectorAll(el);
+            for (var i = 0; i < els.length; i++) {
+                arrayTest.push(new RegExp('\\b' + className + '\\b').test(els[i].className));
+            }
+            return arrayTest
+        }
+        function toggleClass(el, className) {
+            var els = document.querySelectorAll(el);
+            var hasClassArray = hasClass(el, className);
+            for (var i = 0; i < els.length; i++) {
+                if (hasClassArray[i] == true) {
+                    els[i].className = els[i].className.replace(new RegExp('\\b' + className + '\\b', 'g'), '');
+                }
+                else {
+                    els[i] = els[i].className += ' ' + className;
+                }
+            }
+        }
+
+        scrollNav();
+        animNav();
+        scrollToElement();
     </script>
 </body>
 </html>

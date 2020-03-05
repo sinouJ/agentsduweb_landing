@@ -8,6 +8,7 @@ section {
 
         .card {
             height: 300px;
+            cursor: pointer;
             
             h3 {
                 margin-bottom: 0;
@@ -18,8 +19,13 @@ section {
     &.competences {
         position: relative;
         z-index: 3;
-        padding: 50px 20px;
+        padding: 100px 20px 0 20px;
         box-sizing: border-box;
+
+        h2 {
+            margin-left: 20px;
+            margin-bottom: 40px;
+        }
 
         .card {
             height: 300px;
@@ -33,7 +39,7 @@ section {
 
             p {
                 span {
-                    font-family: Abril Fatface;
+                    // font-family: Abril Fatface;
                     font-size: 12px;
                     color: $gray;
                     text-align: center;

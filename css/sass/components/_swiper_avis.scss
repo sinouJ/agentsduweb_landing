@@ -1,0 +1,100 @@
+.avis {
+    background: url(../../../img/backgrounds/hexa.png);
+    background-size: cover;
+    background-position: 50% 30px;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 150px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(158.28deg, #FFFFFF 19.44%, rgba(255, 255, 255, 0.27) 84.68%);
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background: url('../../../img/backgrounds/plume3.png');
+        background-position: center top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    h2 {
+        position: relative;
+        z-index: 1;
+    } 
+
+    .swiper-avis-container {
+        height: 330px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+        border-radius: 30px;
+        background-color: #fff;
+        margin: 40px 0;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    
+        .swiper-wrapper {
+    
+            .swiper-slide {
+                display: flex;
+                align-items: center;
+    
+                .col.s4 {
+                    display: flex;
+                    justify-content: center;
+    
+                    .circle {
+                        width: 180px;
+                        height: 180px;
+                        border-radius: 50%;
+                        overflow: hidden;
+    
+                        img {
+                            max-width: 100%;
+                        }
+                    }
+                }
+    
+                .col.s8 {
+                    p {
+                        font-size: 24px;
+    
+                        span {
+                            font-weight: 700;
+                        }
+    
+                        &.comment {
+                            font-size: 15px;
+                        }
+    
+                        &.note {
+                            display: inline-block;
+                            color: $yellow;
+                        }
+                    }
+    
+                    i {
+                        height: 24px;
+                        display: inline-block;
+    
+                        img {
+                            max-height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

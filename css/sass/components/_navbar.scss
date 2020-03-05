@@ -6,6 +6,12 @@ header {
         left: 0;
         z-index: 4;
         background-color: white;
+        box-shadow: 0px 0 0 rgba(0, 0, 0, 0.0);
+        transition: box-shadow .4s ease;
+
+        &.active {
+            box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.15);
+        }
 
         .logo {
             img {

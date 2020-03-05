@@ -1,4 +1,6 @@
 .process_candidature {
+    padding-top: 100px;
+
     section {
         article {
             margin-left: 100px;
@@ -40,16 +42,45 @@
                 left: -100px;
                 top: -30px;
                 color: $yellow;
+                font-family: 'icomoon' !important;
+                speak: none;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+                font-size: 25px;
+
+                /* Better Font Rendering =========== */
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
             }
 
-            @for $i from 1 to 5 {
-                &:nth-child(#{$i}) {
-                    &::after {
-                        content: "#{$i}";
-                    }
+            &:nth-child(1) {
+                &::after {
+                    content: "\e900";
                 }
             }
             
+            &:nth-child(2) {
+                &::after {
+                    content: "\e901";
+                }
+            }
+
+            &:nth-child(3) {
+                &::after {
+                    content: "\e902";
+                }
+            }
+
+            &:nth-child(4) {
+                &::after {
+                    content: "\e903";
+                }
+            }
+
+
 
             &:not(:last-child) {
                 &::before {
