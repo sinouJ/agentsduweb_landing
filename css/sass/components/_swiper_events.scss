@@ -1,0 +1,26 @@
+.events {
+    h2 {
+        margin-top: 60px;
+    }
+
+    .swiper-events {
+        .swiper-wrapper {
+            margin-top: 40px;
+
+            .swiper-slide {
+                img {
+                    display: block;
+                    max-width: 100%;
+                }
+
+                p {
+                    font-family: Abril Fatface;
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+}
+
