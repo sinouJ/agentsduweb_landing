@@ -6,7 +6,6 @@
     <meta name="description" content="">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="js/package/css/swiper.min.css">
-    <script src=""></script>
     <title>Agents Du Web</title>
 </head>
 <body>
@@ -50,19 +49,25 @@
     <main>
         <section class="valeurs row">
             <article id="collab" class="col s4 card">
-                <div class="circle"></div>
+                <div class="circle">
+                    <img src="img/pic/valeurs.jpg" alt="">
+                </div>
                 <h3>
                     Collaborate & think
                 </h3>
             </article>
             <article id="accompagnement" class="col s4 card">
-                <div class="circle"></div>
+                <div class="circle">
+                    <img src="img/pic/valeurs1.jpg" alt="">
+                </div>
                 <h3>
                     L’accompagnement
                 </h3>
             </article>
             <article id="green" class="col s4 card">
-                <div class="circle"></div>
+                <div class="circle">
+                    <img src="img/pic/valeurs2.jpg" alt="">
+                </div>
                 <h3>
                     Green Community
                 </h3>
@@ -167,7 +172,9 @@
             <div class="container2">
                 <h2>Champs d’action & profils recherchés</h2>
                 <article class="col s4 card">
-                    <div class="circle"></div>
+                    <div class="circle">
+                        <img src="img/icons/conseil.png" alt="">
+                    </div>
                     <h3>
                         Conseil
                     </h3>
@@ -181,7 +188,9 @@
                     </ul>
                 </article>
                 <article class="col s4 card">
-                    <div class="circle"></div>
+                    <div class="circle">
+                        <img src="img/icons/crea.png" alt="">
+                    </div>
                     <h3>
                         Créa
                     </h3>
@@ -195,7 +204,9 @@
                     </ul>
                 </article>
                 <article class="col s4 card">
-                    <div class="circle"></div>
+                    <div class="circle">
+                        <img src="img/icons/content.png" alt="">
+                    </div>
                     <h3>
                         Content
                     </h3>
@@ -209,7 +220,9 @@
                     </ul>
                 </article>
                 <article class="col s4 card">
-                    <div class="circle"></div>
+                    <div class="circle">
+                        <img src="img/icons/digital.png" alt="">
+                    </div>
                     <h3>
                         Digital
                     </h3>
@@ -223,7 +236,9 @@
                     </ul>
                 </article>
                 <article class="col s4 card">
-                    <div class="circle"></div>
+                    <div class="circle">
+                        <img src="img/icons/acquisition.png" alt="">
+                    </div>
                     <h3>
                         Acquisition
                     </h3>
@@ -237,7 +252,9 @@
                     </ul>
                 </article>
                 <article class="col s4 card">
-                    <div class="circle"></div>
+                    <div class="circle">
+                        <img src="img/icons/event.png" alt="">
+                    </div>
                     <h3>
                         Event
                     </h3>
@@ -592,13 +609,13 @@
         }
 
         function toggleText() {
-            var collab = document.querySelector('#collab')
-            var accompagnement = document.querySelector('#accompagnement')
-            var green = document.querySelector('#green')
+            var collab = document.querySelector('#collab');
+            var accompagnement = document.querySelector('#accompagnement');
+            var green = document.querySelector('#green');
 
-            var collabSection = document.querySelector('#collabSection')
-            var accompagnementSection = document.querySelector('#accompagnementSection')
-            var greenSection = document.querySelector('#greenSection')
+            var collabSection = document.querySelector('#collabSection');
+            var accompagnementSection = document.querySelector('#accompagnementSection');
+            var greenSection = document.querySelector('#greenSection');
 
             green.addEventListener('click', function() {
                 console.log('ok');

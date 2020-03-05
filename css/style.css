@@ -644,7 +644,14 @@ section .card {
     width: 122px;
     border-radius: 50%;
     background-color: #FBC450;
-    margin: 37px auto; }
+    margin: 37px auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    section .card .circle img {
+      max-width: 100%;
+      display: block; }
   section .card h3 {
     text-align: center;
     margin-bottom: 74px; }

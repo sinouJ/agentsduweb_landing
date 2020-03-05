@@ -127,12 +127,29 @@ section {
             width: calc(((100% / 12) * 6) - 40px) !important;
         }
 
+        &.active {
+            h3 {
+                &::after {
+
+                }
+            }
+        }
+
         .circle {
             height: 122px;
             width: 122px;
             border-radius: 50%;
             background-color: $yellow;
             margin: 37px auto;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                max-width: 100%;
+                display: block;
+            }
         }
 
         h3 {
